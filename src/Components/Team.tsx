@@ -58,7 +58,7 @@ const Team = () => {
                         {TeamMember.map((member) => (
                             <li key={member.name} className="team-card">
                                 <Link href={member.link} className="team-member">
-                                    <figure className=' overflow-hidden lg:w-[150px] lg:h-[150px]'>
+                                    <figure className='overflow-hidden lg:w-[150px] lg:h-[150px]'>
                                         <Image src={member.src} className='!relative w-[100px] h-[100px] rounded-[50%]' layout="fill" alt='abhi' />
                                     </figure>
                                 </Link>
