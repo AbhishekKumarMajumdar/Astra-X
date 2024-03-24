@@ -23,13 +23,13 @@ const Navbar = () => {
                 <div className={`overlay `} data-overlay></div>
 
                 <div className="container">
-                    <a href="#" className="logo">
-                        {/* <img
+                    {/* <a href="#" className="logo">
+                        <img
                             src="https://raw.githubusercontent.com/codewithsadee/gamex/244de1829b8ad4249fcf160fc8cdaa4cc25db7ba/assets/images/logo.svg"
                             alt="GameX logo"
-                        /> */}
-                        <h1 className='text-white font-mono font-extrabold text-4xl '>Astra-X</h1>
-                    </a>
+                        />
+                    </a> */}
+                    <h1 className='text-white font-mono font-extrabold text-4xl '>Astra-X</h1>
 
                     <button onClick={() => setIsOpen(!isOpen)} className="nav-open-btn" data-nav-open-btn>
                         <IoMdMenu />                    </button>
@@ -56,7 +56,7 @@ const Navbar = () => {
                             </li>
 
                             <li>
-                                <a href="#gears" className="navbar-link">Events</a>
+                                <a href="#gears" className="navbar-link">Event</a>
                             </li>
 
                             <li>
