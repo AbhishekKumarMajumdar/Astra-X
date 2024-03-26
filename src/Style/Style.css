@@ -1810,3 +1810,8 @@ body.active {
             background-size: cover;
             background-position: top center;
      }
+     .stall{
+        background:url("../Image/StallBanner.jpg");
+        background-size: cover;
+            background-position: top center;
+     }
