@@ -4,11 +4,12 @@ import React from 'react'
 import About from './About'
 import Hero from './Hero'
 import Tournament from './Tournament'
-import Gellery from './Gellery'
 import Team from './Team'
 import Event from './Event'
 import Newslatter from './Newslatter'
 import { IoCloseSharp } from "react-icons/io5";
+import dynamic from 'next/dynamic';
+const Gellery = dynamic(() => import('./Gellery'))
 
 const Main = () => {
     return (

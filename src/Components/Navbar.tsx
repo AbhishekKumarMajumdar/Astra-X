@@ -8,6 +8,9 @@ import { IoLogoYoutube } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { CiLogin } from "react-icons/ci";
+import Logo from "@/Image/Logo.png"
+import Image from 'next/image';
+
 const Navbar = () => {
 
     const [isOpen, setIsOpen] = React.useState<Boolean>(false);
@@ -29,7 +32,9 @@ const Navbar = () => {
                             alt="GameX logo"
                         />
                     </a> */}
-                    <h1 className='text-white font-mono font-extrabold text-4xl '>Astra-X</h1>
+                    <Image src={Logo} alt='Logo' className="w-[180px]" />
+
+                    {/* <h1 className='text-white font-mono font-extrabold text-4xl '>Astra-X</h1> */}
 
                     <button onClick={() => setIsOpen(!isOpen)} className="nav-open-btn" data-nav-open-btn>
                         <IoMdMenu />                    </button>
@@ -52,11 +57,11 @@ const Navbar = () => {
 
                         <ul className={`navbar-list `} >
                             <li>
-                                <a href="#hero" className="navbar-link">Home</a>
+                                <a href="/" className="navbar-link">Home</a>
                             </li>
 
                             <li>
-                                <a href="#gears" className="navbar-link">Event</a>
+                                <a href="/#gears" className="navbar-link">Event</a>
                             </li>
 
                             <li>

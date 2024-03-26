@@ -17,7 +17,7 @@ const Event = () => {
         },
         {
             name: "Hackathon",
-            link: "/events",
+            link: "/hackathon",
             image: " "
         },
         {
@@ -42,7 +42,7 @@ const Event = () => {
         },
         {
             name: "STALL MAKING COMPETITION",
-            link: "/events",
+            link: "/Stall_Making_Compitition",
             image: " "
         },
         {
