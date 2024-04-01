@@ -5,7 +5,7 @@ import Logo from "../Image/banner-bg.jpg"
 const SingleHero = (props: { Data: any }) => {
     return (
         <>
-            <section className={`w-[100vw] h-[100vh] flex stall justify-center items-center`}>
+            <section style={{ background: `url(${props.Data.banner.src}) center center/cover` }} className={`w-[100vw] h-[100vh] flex  justify-center items-center`}>
                 <div className="container">
                     <p className="hero-subtitle text-center">AKIT Presents</p>
 

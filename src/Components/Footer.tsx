@@ -5,6 +5,9 @@ import { FaInstagram } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import Logo from "@/Image/Logo.png"
+import Image from 'next/image';
+
 const Footer = () => {
     return (
         <footer>
@@ -12,7 +15,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="footer-brand-wrapper">
                         <a href="#" className="logo">
-                            <h1 className='text-white font-mono font-extrabold text-4xl '>Astra-X</h1>
+                            <Image src={Logo} alt='Logo' className="w-[180px]" />
 
                         </a>
 
@@ -103,7 +106,7 @@ const Footer = () => {
             <div className="footer-bottom">
                 <div className="container ">
                     <p className="copyright">
-                        Copyright &copy; 2023 <a href="#">Abhishek majumdar </a> & <a href="#">Rahul </a>. all rights reserved
+                        Copyright &copy; 2023 <a href="https://in.linkedin.com/in/theabhishekmajumdar">Abhishek Kumar Majumdar </a> all rights reserved
                     </p>
                 </div>
             </div>

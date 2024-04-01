@@ -9,11 +9,16 @@ import Gellery from '@/Components/Gellery'
 import Card from '@/Components/Card'
 import GroupCard from '@/Components/GroupCard'
 import StallBanner from '@/Image/StallBanner.jpg'
+import Img1 from "@/Image/DjGallery.jpg"
+import Img2 from "@/Image/photoGallery.jpg"
+import Main from "@/Image/Cover/stall.jpg"
+
 const Hackathon = () => {
+    const gellery = [Img1, Img2];
     const data = {
         title: "Stall Making ",
         form: "https://forms.gle/y1XoDdej2g98cptM6",
-        banner: StallBanner,
+        banner: Main,
         rule: ["rule 1", "rule 1", "rule 1", "rule 1", "rule 1", "rule 1", "rule 1", "rule 1"],
         Image: [],
         aboutTitle: "About Title",
@@ -29,12 +34,14 @@ const Hackathon = () => {
         },
 
         {
-            name: "Event Coodinetor",
+            name: "Abhishek , Gayatra ",
+            post: "Event Coodinetor",
             link: "",
         },
 
         {
-            name: "Group 1",
+            name: "Neha Bisht",
+            post: "Faculty Coodinetor",
             link: "",
         },
 
@@ -46,7 +53,7 @@ const Hackathon = () => {
             <div className="section-wrapper">
                 <SingleAbout Data={data} />
                 <SingleRule Data={data} />
-                <Gellery />
+                <Gellery data={gellery} />
                 <GroupCard Data={cardData} />
             </div>
 

@@ -9,7 +9,7 @@ const SingleAbout = (props: { Data: any }) => {
                 <figure className="about-banner">
                     <Image
                         src={props.Data?.aboutImage}
-                        className='w-[100%]'
+                        className=''
 
                         alt='logo' />
 

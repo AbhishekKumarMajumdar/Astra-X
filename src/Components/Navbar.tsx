@@ -32,7 +32,7 @@ const Navbar = () => {
                             alt="GameX logo"
                         />
                     </a> */}
-                    <Image src={Logo} alt='Logo' className="w-[180px]" />
+                    <Image src={Logo} alt='Logo' className="w-[100px] md:w-[180px]" />
 
                     {/* <h1 className='text-white font-mono font-extrabold text-4xl '>Astra-X</h1> */}
 
@@ -46,7 +46,7 @@ const Navbar = () => {
                                     src="https://raw.githubusercontent.com/codewithsadee/gamex/244de1829b8ad4249fcf160fc8cdaa4cc25db7ba/assets/images/logo.svg"
                                     alt="GameX logo"
                                 /> */}
-                                <h1 className='text-white font-mono font-extrabold text-4xl '>Astra-X</h1>
+                                <Image src={Logo} alt='Logo' className="w-[100px] md:w-[180px]" />
 
 
                             </a>

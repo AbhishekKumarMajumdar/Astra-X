@@ -1806,12 +1806,12 @@ body.active {
 
      .hackathon{
         /* background:url("../Image/banner-bg.jpg"); */
-        background: url("https://github.com/AbhishekKumarMajumdar/TechFest-2k24/blob/main/src/Components/Image/bg2.png?raw=true") no-repeat center center/cover;
+            background: url("https://github.com/AbhishekKumarMajumdar/TechFest-2k24/blob/main/src/Components/Image/bg2.png?raw=true") no-repeat center center/cover;
             background-size: cover;
             background-position: top center;
      }
      .stall{
-        background:url("../Image/StallBanner.jpg");
+        background:url("https://github.com/AbhishekKumarMajumdar/Astra-X/blob/main/src/Image/StallBanner.jpg?raw=true");
         background-size: cover;
             background-position: top center;
      }
